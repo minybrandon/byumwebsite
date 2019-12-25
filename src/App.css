@@ -1,9 +1,12 @@
+body {
+  background-color: #696969;
+}
+
 .Main {
   text-align: center;
 }
 
 .Main-header {
-  background-color: #696969;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,5 +18,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.About {
+  background-color: #71c0eb;
+  color: white;
+  border-style: solid;
+  border-color: tomato;
+  border-width: 5px;;
 }
 

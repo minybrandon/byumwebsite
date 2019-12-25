@@ -1,37 +1,40 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from 'react-router-dom';
 import './App.css';
-import SelfPortrait from '../src/Assets/selfportrait.svg';
-import '../src/Assets/selfportrait.css'
-import SimpleTabs from './Tabs.js'
+import './Assets/selfportrait.css';
+import CenteredTabs from './Tabs';
+import About from './About';
+import Home from './Home';
+import Projects from './Projects';
 
 function App() {
-  return (
-    <>
-    
-    <div className="Tabs">
-      <SimpleTabs/>
-    </div>
+    return (
+        <Router>
 
-    <div className="Main">
-      <header className="Main-header">
-        <img alt='' src={SelfPortrait} />
-        <p>
-          Brandon Yum : Full-Stack Developer 
-          Hello World!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.nasa.gov/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          One small step for man.
-        </a>
-      </header>
-    </div>
-    
-    </>
-  );
+
+            <div className="Tabs">
+                <CenteredTabs />
+            </div>
+
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/about">
+                    <About />
+                </Route>
+                <Route path="/projects">
+                    <Projects />
+                </Route>
+
+            </Switch>
+
+        </Router>
+    );
 }
 
 export default App;
