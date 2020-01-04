@@ -10,6 +10,7 @@ import CenteredTabs from './Tabs';
 import About from './About';
 import Home from './Home';
 import Projects from './Projects';
+import MyMusic from './MyMusic';
 
 function App() {
     return (
@@ -29,6 +30,9 @@ function App() {
                 </Route>
                 <Route path="/projects">
                     <Projects />
+                </Route>
+                <Route path="/mymusic">
+                    <MyMusic />
                 </Route>
 
             </Switch>

@@ -1,26 +1,20 @@
 import React from 'react';
-import SelfPortrait from '../src/Assets/selfportrait.svg';
+import Typical from 'react-typical';
 
-const Home = () => {
-    return(
-        <div className="Main">
-        <header className="Main-header">
-        <img alt='' src={SelfPortrait} />
-        <p>
-            Brandon Yum : Full-Stack Developer 
-            Hello World!
-        </p>
-        <a
-            className="App-link"
-            href="https://www.nasa.gov/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            One small step for man.
-        </a>
-        </header>
+
+const Home = () => (
+    <>
+        <div className="Intro">
+            <h1>Brandon Yum</h1>
         </div>
-    )
-}
+        <div className="SelfType">
+            <Typical
+                steps={['Web Developer', 3000, 'Artist', 3000, 'Good son', 3000]}
+                loop={Infinity}
+                wrapper="p"
+            />
+        </div>
+    </>
+);
 
-export default Home
+export default Home;
