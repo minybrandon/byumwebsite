@@ -11,6 +11,7 @@ import About from './About';
 import Home from './Home';
 import Projects from './Projects';
 import MyMusic from './MyMusic';
+import Gallery from './Gallery';
 
 function App() {
     return (
@@ -33,6 +34,9 @@ function App() {
                 </Route>
                 <Route path="/mymusic">
                     <MyMusic />
+                </Route>
+                <Route path="/gallery">
+                    <Gallery />
                 </Route>
 
             </Switch>

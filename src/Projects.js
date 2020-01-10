@@ -34,8 +34,8 @@ export default function Projects() {
             Sangstagram
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-           Sangstagram is a project that me and my dad worked on which utilises both fornt-end and back-end. It is
-           an Instagram clone of sort.
+           Sangstagram is a project that me and my dad worked on which utilises both front-end and 
+           back-end. It is an Instagram clone of sort.
                     </Typography>
                 </CardContent>
             </CardActionArea>
