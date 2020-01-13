@@ -26,21 +26,28 @@ body {
 }
 
 h6 {
-  display: flex;
-  align-items: center;
-  margin: 50px;
-  padding: 30px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.AboutCard {
-  margin: 30px;
+  text-align: center;
+  margin: 20px;
   padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
 
 .ImageofDay {
   padding: 30px;
   margin-left: 20%;
   width: 50%;
+}
+
+.NasaTitle {
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px blue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.NasaExplanation {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Courier New", Courier, monospace;
 }

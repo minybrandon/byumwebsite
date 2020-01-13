@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const Gallery = () => {
+const NasaImageofDay = () => {
     const [data, setData] = useState({});
 
     useEffect(() => {
@@ -23,15 +23,20 @@ const Gallery = () => {
 
     return (
         <>
-            <h3>{title}</h3>
+            <div className="NasaTitle">
+                <h1>{title}</h1>
+            </div>
+
             <div className="ImageofDay">
                 <img src={url} alt={title} />
             </div>
-            <p>
-                {explanation}
-            </p>
+            <div className="NasaExplanation">
+                <p>
+                    {explanation}
+                </p>
+            </div>
         </>
     );
 };
 
-export default Gallery;
+export default NasaImageofDay;
