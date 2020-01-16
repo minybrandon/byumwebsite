@@ -29,7 +29,7 @@ h6 {
   text-align: center;
   margin: 20px;
   padding: 10px;
-  font-family: American Typewriter, serif;
+  font-family: Gill Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -43,7 +43,7 @@ h6 {
 .NasaTitle {
   display: flex;
   justify-content: center;
-  text-shadow: 2px 2px blue;
+  text-shadow: 2px 2px whitesmoke;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -52,6 +52,7 @@ h6 {
   margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
+  font-weight: bold;
 }
 
 .MuiCard-root {
@@ -61,4 +62,8 @@ h6 {
 p {
   color: aliceblue;
   text-align: center;
+}
+
+img {
+  border-radius: 50px;
 }
