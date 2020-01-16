@@ -8,7 +8,7 @@ const About = () => (
     <>
         <img alt="" src={SelfPortrait} />
         <h6>
-            Hi! My name is Brandon Yum. I am a 23-year old currently and self-teaching myself full-stack web development.
+            Hi! My name is Brandon Yum.
         </h6>
         <h6>
             I am a 23-year old currently and self-teaching myself full-stack web development.
