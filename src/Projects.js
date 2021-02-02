@@ -34,13 +34,13 @@ export default function Projects() {
                         Sangstagram
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        Sangstagram is an Instagram-clone 
+                        Sangstagram is a Instagram-inspired social networking site (still work in progress).
                     </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="medium" color="primary" target="_blank" href="http://sangstagram-live.firebaseapp.com">
-          View
+                    View
                 </Button>
             </CardActions>
         </Card>
