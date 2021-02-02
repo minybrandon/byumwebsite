@@ -31,16 +31,15 @@ export default function Projects() {
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-            Sangstagram
+                        Sangstagram
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-           Sangstagram is a project that me and my dad worked on which utilises both front-end and 
-           back-end. It is an Instagram clone of sort.
+                        Sangstagram is an Instagram-clone 
                     </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="medium" color="primary" target="_blank" href="https://sangstagram.com">
+                <Button size="medium" color="primary" target="_blank" href="http://sangstagram-live.firebaseapp.com">
           View
                 </Button>
             </CardActions>
